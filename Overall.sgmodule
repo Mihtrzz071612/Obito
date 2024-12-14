@@ -38,7 +38,7 @@ spotify = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/colo
 TrueCaller = type=http-response, pattern=^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple), script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/TrueCaller.js, requires-body=true, max-size=-1, timeout=300
 
 # WidgetSmith
-Widgetsmith=type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*,requires-body=1,script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/WidgetSmith.js
+Widgetsmith解锁=type=http-response,pattern=https://api.revenuecat.com/v1/(receipts|subscribers)/*,requires-body=1,script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/WidgetSmith.js
 
 # Wink
 Wink=type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/Wink.json
