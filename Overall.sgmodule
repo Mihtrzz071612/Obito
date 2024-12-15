@@ -11,7 +11,7 @@ hostname = us-central1-alight-creative.cloudfunctions.net, api.picsart.c*, api.m
 alight motion = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/alight-motion.json,pattern=^https?:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,max-size=131072,requires-body=true,timeout=10,enable=true
 
 # Picsart
-picart = type=http-response,script-path=https://raw.githubusercontent.com/quocchienn/Make/refs/heads/crack/PicsArt.js,pattern=^https://api.picsart.com/shop/subscription/apple/purchases,max-size=131072,requires-body=true,timeout=10,enable=true
+http-request https://api.picsart.com/gw-v2/shop/subscription/apple/purchases script-path=https://raw.githubusercontent.com/quocchienn/Make/refs/heads/crack/PicsArt.js, requires-body=true, timeout=5, tag=PicsArt
 
 # SoundCloud
 SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/soundcloud.js
