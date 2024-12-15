@@ -3,7 +3,7 @@
 
 [MITM]
 
-hostname = us-central1-alight-creative.cloudfunctions.net, api.picsart.c*, api-mobile.soundcloud.com, spclient.wg.spotify.com, api.revenuecat.com, api-sub.meitu.com
+hostname = us-central1-alight-creative.cloudfunctions.net, api.picsart.c*, api.meiease.c*, api-mobile.soundcloud.com, spclient.wg.spotify.com, api.revenuecat.com, api-sub.meitu.com
 
 [Script]
 
