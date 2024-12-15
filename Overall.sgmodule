@@ -10,6 +10,11 @@ hostname = us-central1-alight-creative.cloudfunctions.net, api.picsart.c*, api-m
 # Alight Motion
 alight motion = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/alight-motion.json,pattern=^https?:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses,max-size=131072,requires-body=true,timeout=10,enable=true
 
+# Locket
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/Locket.js, requires-body=true, max-size=-1, timeout=60
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/Locket.Delete.js, timeout=60
+
+
 # Picsart
 picart = type=http-response,script-path=https://raw.githubusercontent.com/iSteal-it/script/main/picart.json,pattern=^https://api.picsart.com/shop/subscription/apple/purchases,max-size=131072,requires-body=true,timeout=10,enable=true
 
