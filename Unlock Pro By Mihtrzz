@@ -16,7 +16,7 @@ scriptings:
     update_interval: 5
     body_required: true
 - http_response:
-    name: Im Him
+    name: ADPTY
     match: https://api.adapty.io/api/v1/sdk/analytics/profiles
     script_url: https://N9dev-dev.github.io/SL/scripts/ADPTY.js
     update_interval: 5
@@ -34,19 +34,19 @@ scriptings:
     update_interval: 5
     body_required: true
 - http_response:
-    name: Readdle
+    name: Document
     match: https:\/\/license\.pdfexpert\.com\/api\/2\.0\/(calendarslite|pdfexpert6|documents)\/subscription\/(refresh|check)
     script_url: https://N9dev-dev.github.io/SL/scripts/Documents.js
     update_interval: 5
     body_required: true
 - http_response:
-    name: Im FLUFFY
+    name: BDI
     match: ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt
     script_url: https://N9dev-dev.github.io/SL/scripts/BDIts.js
     update_interval: 5
     body_required: true
 - http_response:
-    name: Ramadan Kareem
+    name: Muslim
     match: us-central1-muslim-pro-app.cloudfunctions.net/GetUserPremiumInfo
     script_url: https://N9dev-dev.github.io/SL/scripts/MuslimPro.js
     update_interval: 5
@@ -136,7 +136,7 @@ scriptings:
     update_interval: 5
     body_required: true
 - http_request:
-    name: PicsArt
+    name: Picsart
     match: https://api.picsart.com/gw-v2/shop/subscription/apple/purchases
     script_url: https://N9dev-dev.github.io/SL/scripts/PicsArt.js
     update_interval: 5
