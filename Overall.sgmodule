@@ -6,6 +6,7 @@
 # Instagram: mihtrzz
 
 [General]
+
 ipv6 = true
 always-real-ip = *.apple.com
 bypass-system = true
@@ -16,6 +17,7 @@ icmp-auto-reply = true
 private-ip-answer = true
 
 [Header Rewrite]
+
 ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$) header-del x-revenuecat-etag
 ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$) header-del X-RevenueCat-ETag
 
@@ -28,6 +30,7 @@ hostname = us-central1-alight-creative.cloudfunctions.net, photos.adobe.io, api.
 FINAL,PROXY
 
 [URL Rewrite]
+
 ^https:\/\/api\.baomoi\.com\/a465 _ REJECT-200
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad _ reject-200
