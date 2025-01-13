@@ -2,7 +2,7 @@
 #!desc=𝐁𝐲: 𝐌𝐢𝐡𝐭𝐫𝐳𝐳
 
 # Update: 16-12-2024
-# Shadowrocket Modules tổng hợp by Mihtrzz
+# Shadowrocket Modules by Mihtrzz ( IG: mihtrzz )
 
 [Script]
 
@@ -11,4 +11,4 @@ DeleteHeader=type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(re
 
 [MITM]
 
-hostname = %APPEND% api.revenuecat.com
+hostname = api.revenuecat.com
