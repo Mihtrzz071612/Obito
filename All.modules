@@ -1,7 +1,6 @@
-#!name=𝐎𝐯𝐞𝐫𝐚𝐥𝐥
-#!desc=𝐁𝐲: 𝐌𝐢𝐡𝐭𝐫𝐳𝐳
+#!name=All In One
+#!desc=𝐁𝐲: Mihtrzz
 #!Update: 16-12-2024
-#!Shadowrocket Modules tổng hợp bởi Mihtrzz
 
 [MITM]
 
@@ -14,6 +13,10 @@ AlightMotion.json=type=http-response,script-path=https://raw.githubusercontent.c
 
 # Lightroom
 LightRoom.js=type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts*,requires-body=1,script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
+
+#Locket
+Revenuecat=type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/Locket.js, requires-body=true, max-size=-1, timeout=60
+DeleteHeader=type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/Locket.Delete.js, timeout=60
 
 # Photoroom
 PhotoRoom.js=type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/PhotoRoom.js
