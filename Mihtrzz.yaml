@@ -1,5 +1,17 @@
 dns: {}
 
+mitm:
+  enabled: true
+  ca_p12: egern.p12
+  ca_passphrase: egern
+  hostnames:
+  - api.revenuecat.com
+  - buy.itunes.apple.com
+  - api.picsart.com
+  - api-account.kinemasters.com
+  - us-central1-alight-creative.cloudfunctions.net
+  - api.purchasely.io
+
 header_rewrites:
 - delete:
     match: ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$)
@@ -47,15 +59,3 @@ scriptings:
     script_url: https://N9dev-dev.github.io/SL/scripts/VSCO.js
     update_interval: 5
     body_required: true
-
-mitm:
-  enabled: true
-  ca_p12: egern.p12
-  ca_passphrase: egern
-  hostnames:
-  - api.revenuecat.com
-  - buy.itunes.apple.com
-  - api.picsart.com
-  - api-account.kinemasters.com
-  - us-central1-alight-creative.cloudfunctions.net
-  - api.purchasely.io
