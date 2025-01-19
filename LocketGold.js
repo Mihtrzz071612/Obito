@@ -49,7 +49,6 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
       "product_identifier": productIdentifier
     };
 
-    // Add product identifier to subscriptions
     jsonToUpdate.subscriber.subscriptions[productIdentifier] = {
       "expires_date": "9692-01-01T01:01:01Z",
       "original_purchase_date": "2007-11-30T01:01:01Z",
