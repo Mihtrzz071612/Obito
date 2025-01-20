@@ -2,7 +2,7 @@
 #!desc=𝐁𝐲: 𝐌𝐢𝐡𝐭𝐫𝐳𝐳
 
 [MITM]
-hostname = %APPEND% api.revenuecat.com
+hostname = api.revenuecat.com
 
 [Script]
 
