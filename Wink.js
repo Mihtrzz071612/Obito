@@ -1,14 +1,8 @@
 /******************************
-脚本功能：Wink 解锁永久会员
-应用版本：1.3.81
-应用下载：http://t.cn/A6pbyxv0
-脚本作者：Hausd0rff
-更新时间：2023-05-30
-脚本发布：https://t.me/yqc_123
-使用声明：‼️脚本仅供学习交流, 🈲️商业用途
+
 *******************************
 [rewrite_local]
-# > Wink 解锁永久会员
+# > Wink
 ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js
 [mitm] 
 hostname = api-sub.meitu.com
