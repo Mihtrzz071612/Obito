@@ -19,6 +19,6 @@ scriptings:
 - http_response:
     name: Locket Gold By Mihtrzz
     match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
-    script_url: https://raw.githubusercontent.com/Mihtrzz071612/Obito/refs/heads/main/LocketGold.js
+    script_url: https://raw.githubusercontent.com/Mihtrzzzzz/Rin/refs/heads/main/LocketE.js
     body_required: true
     update_interval: 5
