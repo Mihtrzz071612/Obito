@@ -3,8 +3,7 @@
 *******************************
 [rewrite_local]
 # > Wink
-^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js
-[mitm] 
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/Mihtrzzzzz/Rin/refs/heads/main/Wink.js
 hostname = api-sub.meitu.com
 *******************************/
 
