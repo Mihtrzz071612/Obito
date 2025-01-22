@@ -9,7 +9,7 @@ Tuyên bố sử dụng: ‼ ️Script chỉ dành cho học tập và giao ti�
 ********************************** 
 [rewrite_local] 
 # > Nháy mắt Mở khóa thành viên vĩnh viễn 
-^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js 
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/Mihtrzzzzz/Rin/refs/heads/main/Wink.js
 [mitm] 
 tên máy chủ = api-sub.meitu.com 
 ******************* *************/
