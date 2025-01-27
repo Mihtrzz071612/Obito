@@ -4,7 +4,7 @@ obj.entitlement.status="subscriber";
 obj.current_subs={
       "product_id": "lightroom",
       "store": "adobe",
-      "purchase_date": "2023-09-30T16:12:07.254954Z",
+      "purchase_date": "2023-09-30T16:12:07Z",
       "sao": {
         "inpkg_CCES": "0",
         "inpkg_CCLE": "1",
