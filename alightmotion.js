@@ -1,6 +1,5 @@
 var objc = JSON.parse($response.body);
 
-
 objc = {
   "result": {
     "result": "success",
