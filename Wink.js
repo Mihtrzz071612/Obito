@@ -1,5 +1,5 @@
 /******************************
-Chức năng: Wink Mở khóa tư cách thành viên vĩnh viễn
+Chức năng: Wink VIP
 *****************************
 [rewrite_local]
 ^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body
