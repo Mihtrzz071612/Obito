@@ -3,7 +3,7 @@ var objc = JSON.parse($response.body);
 objc = {
   "result": {
     "result": "success",
-    "msTime": 1696032000000,  // Cập nhật ngày đăng ký
+    "msTime": 1696032000000,
     "accountCreatedMillis": null,
     "licenses": [
       {
