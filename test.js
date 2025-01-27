@@ -3,7 +3,7 @@ var objc = JSON.parse($response.body);
 objc = {
   "result": {
     "result": "success",
-    "msTime": 1696084327000,
+    "msTime": 1696065127000,
     "accountCreatedMillis": null,
     "licenses": [
       {
@@ -20,12 +20,12 @@ objc = {
         "type": "subscription",
         "store": "apple_app_store",
         "autoRenewing": true,
-        "orderNumber": "16123011092007",
-        "productId": "alightcreative.motion.1y_t60_1w",
-        "period": "1y",
+        "orderNumber": "16120730110719",
+        "productId": "alightcreative.motion.986y_t60_1w",
+        "period": "986y",
         "label": null,
         "details": null,
-        "expires": 39721056000000,
+        "expires": 32811210727000,
         "valid": true,
         "linkStatus": "linked-current"
       }
