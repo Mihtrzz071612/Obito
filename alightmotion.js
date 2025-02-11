@@ -1,5 +1,4 @@
 var objc = JSON.parse($response.body);
-
 objc = {
   "result": {
     "result": "success",
@@ -33,5 +32,4 @@ objc = {
     "warnings": []
   }
 }
-
 $done({ body: JSON.stringify(objc) });
