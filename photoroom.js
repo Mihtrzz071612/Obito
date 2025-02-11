@@ -95,7 +95,7 @@ ojbk[_0x28bc('0x0', 'CTxH')][_0x28bc('0x9', 'G9TO')] = {
         'original_purchase_date': 1696065127000,
         'purchase_date': 1696065127000,
         'ownership_type': _0x28bc('0xe', 'ydCs'),
-        'store': _0x28bc('0x1', 'ZMjc')
+        'store': "app_store"
     }
 };
 $done({
