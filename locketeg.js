@@ -1,5 +1,4 @@
 var request = $request;
-
 const options = {
     url: "https://api.revenuecat.com/v1/product_entitlement_mapping",
     headers: {
@@ -8,11 +7,8 @@ const options = {
      'User-Agent' : request.headers["user-agent"]
     }
 }
-
 $httpClient.get(options, function(error, newResponse, data){
-  
 const ent = JSON.parse(data);
-
 let jsonToUpdate = {
         "request_date_ms": 1704070861000,
         "request_date": "2023-09-30T16:12:07Z",
@@ -30,14 +26,10 @@ let jsonToUpdate = {
             "non_subscriptions": {}
         }
     };
-
 const productEntitlementMapping = ent.product_entitlement_mapping
-
 for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapping)) {
   const productIdentifier = productInfo.product_identifier;
   const entitlements = productInfo.entitlements;
-
-
   for (const entitlement of entitlements) {
     jsonToUpdate.subscriber.entitlements[entitlement] = {
       "purchase_date": "2023-09-30T16:12:07Z",
@@ -48,8 +40,7 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
       "store": "app_store",
       "product_identifier": productIdentifier
     };
-
-    jsonToUpdate.subscriber.subscriptions[productIdentifier] = {
+      jsonToUpdate.subscriber.subscriptions[productIdentifier] = {
       "expires_date": "3009-09-30T16:12:07Z",
       "original_purchase_date": "2023-09-30T16:12:07Z",
       "purchase_date": "2023-09-30T16:12:07Z",
@@ -59,8 +50,6 @@ for (const [entitlementId, productInfo] of Object.entries(productEntitlementMapp
     };
   }
 }
-
 body = JSON.stringify(jsonToUpdate);
 $done({body});
-
 });
