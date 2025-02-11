@@ -3,7 +3,7 @@ let obj = {
     "request_date": "2024-01-07T21:47:40Z",
     "subscriber": {
         "non_subscriptions": {},
-        "first_seen": "2024-01-07T21:42:02Z",
+        "first_seen": "2023-09-30T16:12:07Z",
         "original_application_version": "1",
         "other_purchases": {},
         "management_url": null,
