@@ -1,4 +1,3 @@
-
 const version = 'V1.0.2';
 function setHeaderValue(e, a, d) {
     var r = a.toLowerCase();
