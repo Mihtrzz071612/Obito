@@ -1,4 +1,3 @@
-
 const options = {
     appid: '',
     securityKey: ''
@@ -19,7 +18,6 @@ if(resStatus !== 200) {
     const commonApi = new Env(notifyName);
     const isQX = commonApi.isQuanX();
     const binaryBody = isQX ? new Uint8Array($response.bodyBytes) : $response.body;
-
     const colorLyricsResponseObj = ColorLyricsResponse.fromBinary(binaryBody,{readUnknownField: true});
     const originLanguage = colorLyricsResponseObj.lyrics.language;
     if(!originLanguage){
