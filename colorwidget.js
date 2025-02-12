@@ -1,4 +1,3 @@
-
 var obj = JSON.parse($response.body);
 obj.subscriber.entitlements = {
       "pro":{
