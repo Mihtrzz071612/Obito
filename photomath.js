@@ -1,4 +1,3 @@
-
 var body = JSON.parse($response.body);
 body.content.tier.level = "genius";
 body.content.subscription = {
