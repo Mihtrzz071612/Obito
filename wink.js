@@ -1,4 +1,3 @@
-
 var __encode = 'ig:mihtrzz',
     _a = {},
     _0xb483 = ["_decode", "https://www.facebook.com/mihtrzz"];
